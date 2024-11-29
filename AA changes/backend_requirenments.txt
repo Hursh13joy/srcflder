@@ -1,0 +1,12 @@
+*login page authentication
+
+*in login page password visible button
+*signup page authentication
+
+*link the login button after login to the home page 
+
+*make a admin login for access to only us
+
+*email and ph.no verification in forgot password
+*
+

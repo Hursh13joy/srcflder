@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <div class="menu">
+  <nav>
+    <img src="images/logo.png" class="logo"> <!-- OUR LOGO-->
+    <ul>
+      <li><a href="home.html" class="nav-link active">Home</a></li>
+      <li><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+      <li><a href="notification.html" class="nav-link">Notification</a></li>
+      <li><a href="profile.html" class="nav-link">Profile</a></li>
+      <li><a href="login_page.html" class="nav-link">Logout</a></li>
+      
+    </ul>
+    <img src="images/user-avatar.jpg" class="user-pic" onclick="toggleMenu()">
+    <div class="sub-menu-wrap" id="subMenu">
+      <div class="sub-menu">
+        <div class="user-info">
+          <img src="images/user.png">
+          <h2>hi</h2>
+        </div>
+        <hr>
+        <a href="edit-profile.html" class="sub-menu-link nav-link">
+          <img src="images/profile.png" width="20" height="20">
+          <p>Edit Profile</p>
+          <span>></span>
+        </a>
+        <a href="settings.html" class="sub-menu-link nav-link">
+          <img src="images/setting.png" width="20" height="20">
+          <p>Settings</p>
+          <span>></span>
+        </a>
+        <a href="help.html" class="sub-menu-link nav-link">
+          <img src="images/help.png" width="20" height="20">
+          <p>Help</p>
+          <span>></span>
+        </a>
+        <a href="logout.html" class="sub-menu-link nav-link">
+          <img src="images/logout.png" width="20" height="20">
+          <p>Logout</p>
+          <span>></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <!-- </nav> -->
+
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class='bx bxl-c-plus-plus'></i>
+          <div class="logo_name">Pet Planet</div>
+        </div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <i class='bx bx-file-find'></i>
+          <input type="text" placeholder="Search...">
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="home.html">
+            <i class='bx bx-grid-alt'></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user'></i>
+            <span class="links_name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-chat'></i>
+            <span class="links_name">Messages</span>
+          </a>
+          <span class="tooltip">Messages</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart'></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+  <li>
+
+  <a href="shopping.html"> 
+    <i class='bx bx-folder'></i>
+    <span class="links_name">Shopping</span>
+  </a>
+  <span class="tooltip">Shopping</span>
+</li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cart'></i>
+            <span class="links_name">Order</span>
+          </a>
+          <span class="tooltip">Order</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-bookmark-heart'></i>
+            <span class="links_name">Saved</span>
+          </a>
+          <span class="tooltip">Saved</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog'></i>
+            <span class="links_name">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+      </ul>
+    <!-- </div> -->
+<!---Navigation bar down profile show -->
+
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+            <img src="profile.jpg" alt="">
+            <div class="name_job">
+              
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </div>
+      </div>
+    </div>
+
+    
+
+<!-- Services Section -->
+<div class="container">
+  <h2>Our Services</h2>
+  <section class="services">
+    <!-- Service Card: Add Your Pet Animal -->
+    <a href="add_pet.html" class="card">
+      
+      <div class="content">
+        <div class="title">Add your pet Animal</div>
+        <p>Add your lovely pet to keep track.</p>
+      </div>
+    </a>
+
+    <!-- Service Card: Book an Appointment -->
+ <a href="bookappointment.html" class="card">
+     <div class="content">
+        <div class="title">Book an Appointment</div>
+        <p>Book appointments for your pet with our vets.</p>
+      </div>
+  </a>
+  
+
+    <!-- Service Card: Health Activity -->
+    <a href="health_track.html" class="card">
+      <div class="content">
+        <div class="title">Health Activity</div>
+        <p>Keep track of your pet's health.</p>
+      </div>
+  </a>
+
+    <!-- Service Card: Reminders -->
+     <a href="reminder.html" class="card">
+      <div class="content">
+        <div class="title">Reminders</div>
+        <p>Set reminders for medical checkups.</p>
+      </div>
+      </a>
+
+      <a href="contact_vet.html" class="card">
+      <div class="content">
+        <div class="title">Contact Vet Doctors</div>
+        <p>Contact vet doctors for any kind of help.</p>
+      </div>
+       </a>	
+
+    <!-- Service Card: Shopping -->
+  <a href="shopping.html" class="card">
+<div class="content">
+        <div class="title">Shopping</div>
+        <p>Shop accessories, toys, food supplements online.</p>
+      </div>
+       </a>
+
+    <!-- Service Card: Gallery -->
+    <a href="gallery.html" class="card">
+      <div class="content">
+        <div class="title">Gallery</div>
+        <p>A gallery for pet owners to share cherished moments.</p>
+      </div>
+</a>
+
+    <!-- Service Card: Events -->
+  <a href="events.html" class="card">
+      <div class="content">
+        <div class="title">Events</div>
+        <p>Join us for exciting events celebrating pets and owners!</p>
+      </div>
+ </a>
+
+    <!-- Service Card: FAQ's -->
+    <a href="faq.html" class="card">
+      <div class="content">
+        <div class="title">FAQ's</div>
+        <p>Find answers to common questions about our services.</p>
+      </div>
+    </a>
+
+    <!-- Service Card: Community -->
+     <a href="community.html" class="card">
+      <div class="content">
+        <div class="title">Community</div>
+        <p>A friendly community for pet lovers to connect and share.</p>
+      </div>
+   </a>
+  </section>
+</div>
+
+
+
+
+<!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Ph.no 8660528496</a></li>
+              <li><a href="#">petplanet@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Accessories</h4>
+            <ul>
+              <li><a href="#">food supplement</a></li>
+              <li><a href="#">medications</a></li>
+              <li><a href="#">toys</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+<div class="social-links">
+  <a href="https://facebook.com" target="_blank">
+  </a>
+  <a href="https://twitter.com" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://instagram.com" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://linkedin.com" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+<!--menu tab logout button js content-->
+
+ <script>
+<li><button onclick="logout()">Logout</button></li>
+function logout() {
+    sessionStorage.clear();  // Clears sessionStorage data
+    localStorage.clear();    // Clears localStorage data (if applicable)
+    // Optionally, clear any cookies related to the user session
+    document.cookie = "userSession=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";  // Example of clearing a cookie
+window.location.href = "login_page.html";
+}
+ </script>
+<script>
+let sidebar = document.querySelector(".sidebar"); // Sidebar container
+let navLinks = document.querySelectorAll(".nav-link"); // Select all sidebar links
+
+// Function to toggle sidebar visibility
+let btn = document.querySelector("#btn");
+btn.onclick = function() {
+  sidebar.classList.toggle("active"); // Toggle the sidebar when the menu button is clicked
+};
+
+// Close sidebar when any navigation link is clicked
+navLinks.forEach(link => {
+  link.addEventListener("click", function() {
+    sidebar.classList.remove("active");  // Remove 'active' class to close the sidebar
+  });
+});
+
+// Optional: close the sub-menu when clicking outside of the user-avatar
+let subMenu = document.getElementById("subMenu");
+let userPic = document.querySelector(".user-pic");
+
+userPic.onclick = function() {
+  subMenu.classList.toggle("open-menu");
+};
+
+// Close sub-menu when clicking anywhere outside the menu
+document.addEventListener('click', function(event) {
+  if (!userPic.contains(event.target) && !subMenu.contains(event.target)) {
+    subMenu.classList.remove("open-menu");
+  }
+});
+
+</script>
+<script>
+let btn = document.querySelector("#btn"); // Sidebar toggle button
+let sidebar = document.querySelector(".sidebar"); // Sidebar element
+let links = document.querySelectorAll(".nav_list a"); // All links inside the sidebar
+
+// Toggle sidebar when menu button is clicked
+btn.onclick = function() {
+  sidebar.classList.toggle("active"); // Toggle the sidebar's active class
+};
+
+// Close sidebar when any link is clicked
+links.forEach(link => {
+  link.addEventListener("click", function() {
+    sidebar.classList.remove("active"); // Remove 'active' class to close the sidebar
+  });
+});
+</script>
+  <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let subMenu = document.getElementById("subMenu");
+
+    btn.onclick = function() {
+      sidebar.classList.toggle("active");
+    };
+
+    function toggleMenu() {
+  let subMenu = document.getElementById("subMenu");
+  subMenu.classList.toggle("open-menu");
+}
+  </script>
+
+
+
+</body>
+</html>
+

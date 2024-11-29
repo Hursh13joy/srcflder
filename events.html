@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Events</title>
+    <link rel="stylesheet" href="events_css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our Exciting Pet Events</h1>
+
+        <!-- Events Section -->
+        <div class="events">
+            <div class="event-card">
+                <img src="event1.jpg" alt="Pet Parade">
+                <div class="event-info">
+                    <h2>Pet Parade</h2>
+                    <p class="event-date">Date: December 10, 2024</p>
+                    <p class="event-location">Location: Central Park</p>
+                    <p>Join us for a fun-filled day celebrating our furry friends with a parade and games!</p>
+                    <button onclick="registerEvent('Pet Parade')">Register</button>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <img src="event2.jpg" alt="Adoption Drive">
+                <div class="event-info">
+                    <h2>Adoption Drive</h2>
+                    <p class="event-date">Date: January 15, 2025</p>
+                    <p class="event-location">Location: Downtown Shelter</p>
+                    <p>Looking for a furry companion? Join us for an adoption drive and find your perfect pet!</p>
+                    <button onclick="registerEvent('Adoption Drive')">Register</button>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <img src="event3.jpg" alt="Pet Fashion Show">
+                <div class="event-info">
+                    <h2>Pet Fashion Show</h2>
+                    <p class="event-date">Date: February 20, 2025</p>
+                    <p class="event-location">Location: City Mall</p>
+                    <p>Bring your pet and show off their style at the most fashionable event of the year!</p>
+                    <button onclick="registerEvent('Pet Fashion Show')">Register</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registration Confirmation -->
+        <div id="registration-confirmation" class="confirmation" style="display: none;">
+            <h3>Thank you for registering!</h3>
+            <p id="event-name"></p>
+            <button onclick="closeConfirmation()">Close</button>
+        </div>
+    </div>
+
+    <script src="events_js.js"></script>
+</body>
+</html>

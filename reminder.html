@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Health Reminders</title>
+    <link rel="stylesheet" href="remindercss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Medical Checkup Reminders</h1>
+
+        <!-- Reminder Form -->
+        <div class="reminder-form">
+            <input type="text" id="reminder-title" placeholder="Reminder Title" />
+            <input type="date" id="reminder-date" />
+            <textarea id="reminder-details" placeholder="Additional details..."></textarea>
+            <button onclick="setReminder()">Set Reminder</button>
+        </div>
+
+        <!-- Reminder List -->
+        <div id="reminder-list" class="reminder-list">
+            <h2>Your Reminders</h2>
+            <ul id="reminders"></ul>
+        </div>
+    </div>
+
+    <script src="reminderjs.js"></script>
+</body>
+</html>

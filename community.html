@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Lovers Community</title>
+    <link rel="stylesheet" href="community_css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our Friendly Pet Lovers Community</h1>
+
+        <!-- Post Feed Section -->
+        <div class="community-feed">
+            <!-- Post Form -->
+            <div class="post-form">
+                <h2>Share your pet's moment</h2>
+                <textarea id="post-text" placeholder="What's on your mind?" rows="4"></textarea>
+                <button onclick="postUpdate()">Post</button>
+            </div>
+
+            <!-- Community Posts -->
+            <div class="posts">
+                <!-- Dynamic posts will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="community_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+*Main home page js content is in the html page only*
+
+*top menu bar needs to be altered
+
+*create webpages to link to the footer
+
+*make changes in the side bar
+
+*add a notification button at the menu bar
+
+
+*make a dark mode and light mode button and place it in the settings box
+
+*create a profile page and link to menu bar and side bar 
+
+*create a setting page and link to menu bar and side bar
+
+
+*make corrections in the side bar i.e. profile section at the bottom
+
+*close the side bar on clicking on the home page
+
+
+*add all the icons in the footer and at the navigation bar
+
+*make the ph.no and email not clickable
+
+*make a scroll up button at the right bottom corner
+
+*make a drop down box to contact us & make a contact us page and link to the footer and at the side bar
+
+*create a chat bot and add it to side bar and at the right bottom side by creating a button
+
+*remove the c logo and insert  our logo
+
+*link the login page to the profile dropdown box of profile 
+
+*make proper corrections at the menu bar in profile section
+
+*make content about the about us, privacy policy , our services
+
+*make accessories as shopping and make them as different toggles to open at the shopping page for different category
+*if clicked on our logo direct it to home page
+
+*make a card about the educational videos and content
+ 
+*make our services at the center of the page
+
+*in shopping add the shipping address
+
+*make a customer service at the side bar
+
+*hire a pet care taker
+
+*make some images to scroll sideways on the home page at the upper side
+
+*in login page create some images of pets and make them scroll sideways and add some quotes and facts to look attractive
+
+*after login successful make a pop up to show that "successfully logged in " and create a click button 'ok' on it 
+
+*add a  button to create a "become a volunteer" in side bar
+
+*add some articles and some paper works in a card
+
+*create a "blog" to add the pet owners blog to the website
+
+*put a playstore button at  the footer and link it to the app
+
+*add some useful links at the footer

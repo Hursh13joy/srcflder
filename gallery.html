@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Gallery</title>
+    <link rel="stylesheet" href="gallery_css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pet Gallery</h1>
+
+        <!-- Image Upload Form -->
+        <div class="upload-form">
+            <h2>Share a Moment</h2>
+            <input type="file" id="image-upload" accept="image/*">
+            <textarea id="caption" placeholder="Add a caption for your photo..."></textarea>
+            <button onclick="uploadImage()">Upload</button>
+        </div>
+
+        <!-- Gallery Section -->
+        <div id="gallery" class="gallery">
+            <!-- Images will be displayed here -->
+        </div>
+    </div>
+
+    <script src="gallery_js.js"></script>
+</body>
+</html>

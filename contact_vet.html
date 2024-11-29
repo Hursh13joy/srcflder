@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Vet Doctors</title>
+    <link rel="stylesheet" href="contact_vet_css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Vet Doctors</h1>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required />
+
+            <label for="vet-query">Type of Help</label>
+            <select id="vet-query" required>
+                <option value="" disabled selected>Select the type of help</option>
+                <option value="General Consultation">General Consultation</option>
+                <option value="Emergency Help">Emergency Help</option>
+                <option value="Routine Checkup">Routine Checkup</option>
+                <option value="Behavioral Issues">Behavioral Issues</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Describe your issue..." required></textarea>
+
+            <button onclick="submitContactForm()">Send Message</button>
+        </div>
+
+        <!-- Confirmation Message -->
+        <div id="confirmation-message" class="confirmation-message"></div>
+    </div>
+
+    <script src="contact_vet_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Health Tracker</title>
+    <link rel="stylesheet" href="health_track_css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pet Health Tracker</h1>
+
+        <div class="section">
+            <h2>Medical Records</h2>
+            <textarea id="medical-records" placeholder="Add medical records here..."></textarea>
+        </div>
+
+        <div class="section">
+            <h2>Weight Tracking</h2>
+            <input type="number" id="weight" placeholder="Enter weight (kg)" />
+            <button onclick="trackWeight()">Add Weight</button>
+            <ul id="weight-list"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Diet and Nutrition</h2>
+            <textarea id="diet" placeholder="Enter diet information..."></textarea>
+        </div>
+
+        <div class="section">
+            <h2>Exercise and Activity</h2>
+            <textarea id="exercise" placeholder="Track daily activities..."></textarea>
+        </div>
+
+        <div class="section">
+            <h2>Medication Reminders</h2>
+            <input type="text" id="medication" placeholder="Enter medication" />
+            <button onclick="setReminder()">Set Reminder</button>
+            <ul id="medication-list"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Vet Visits</h2>
+            <input type="date" id="vet-visit-date" />
+            <button onclick="addVetVisit()">Add Vet Visit</button>
+            <ul id="vet-visit-list"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Health Alerts</h2>
+            <textarea id="health-alerts" placeholder="Enter any health alerts..."></textarea>
+        </div>
+    </div>
+
+    <script src="health_track_js.js"></script>
+</body>
+</html>

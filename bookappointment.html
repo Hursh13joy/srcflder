@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Vet Appointment</title>
+    <link rel="stylesheet" href="book_appointmentcss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book an Appointment for Your Pet</h1>
+
+        <!-- Appointment Form -->
+        <div class="appointment-form">
+            <label for="pet-name">Pet's Name</label>
+            <input type="text" id="pet-name" placeholder="Enter pet's name" required />
+
+            <label for="vet-name">Choose a Vet</label>
+            <select id="vet-name" required>
+                <option value="" disabled selected>Select a vet</option>
+                <option value="Dr. Smith">Dr. Smith</option>
+                <option value="Dr. Johnson">Dr. Johnson</option>
+                <option value="Dr. Lee">Dr. Lee</option>
+            </select>
+
+            <label for="appointment-date">Choose a Date</label>
+            <input type="date" id="appointment-date" required />
+
+            <label for="appointment-time">Choose a Time</label>
+            <select id="appointment-time" required>
+                <option value="" disabled selected>Select a time</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+            </select>
+
+            <button onclick="bookAppointment()">Book Appointment</button>
+        </div>
+
+        <!-- Confirmation Message -->
+        <div id="confirmation-message" class="confirmation-message"></div>
+    </div>
+
+    <script src="book_appointmentjs.js"></script>
+</body>
+</html>
